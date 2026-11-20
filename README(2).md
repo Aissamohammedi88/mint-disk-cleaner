@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🚀 Linux-DiskGuard & Benchmark
+# 🚀 mint-disk-cleaner & Benchmark
 ### *L'outil ultime d'audit, benchmark disque et nettoyage automatisé pour Linux Mint, Ubuntu & Debian*
 
-[![GitHub Stars](https://img.shields.io/github/stars/votre-nom-utilisateur/linux-diskguard?style=for-the-badge&logo=github&color=ffb703&label=Laissez%20une%20%E2%AD%90)](https://github.com/votre-nom-utilisateur/linux-diskguard/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/votre-nom-utilisateur/mint-disk-cleaner?style=for-the-badge&logo=github&color=ffb703&label=Laissez%20une%20%E2%AD%90)](https://github.com/votre-nom-utilisateur/linux-diskguard/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/OS-Linux%20Mint%20%7C%20Ubuntu%20%7C%20Debian-brightgreen?style=for-the-badge&logo=linux)](https://linuxmint.com)
 [![Bash](https://img.shields.io/badge/Shell-Bash%205%2B-black?style=for-the-badge&logo=gnu-bash)](https://www.gnu.org/software/bash/)
@@ -50,7 +50,7 @@ Voici l'interface TUI interactive affichée directement dans votre terminal :
 
 ```text
 ========================================================================
-                      LINUX-DISKGUARD & BENCHMARK
+                      mint-disk-cleaner & BENCHMARK
 ========================================================================
  État actuel        : partition / remplie à 85 % ⚠️
  Surveillance auto  : ACTIVE ✔ (vérification toutes les 15 min)
@@ -99,14 +99,11 @@ curl -fsSL https://raw.githubusercontent.com/votre-nom-utilisateur/linux-diskgua
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-nom-utilisateur/linux-diskguard.git
-cd linux-diskguard
+git clone https://github.com/Aissamohammedi88/mint-disk-cleaner.git
+cd mint-disk-cleaner
 
-# 2. Rendre le script exécutable
-chmod +x diskguard.sh
-
-# 3. Lancer l'outil avec les privilèges administrateur
-sudo ./diskguard.sh
+chmod +x docteur-disque.sh
+./docteur-disque.sh
 ```
 
 ---
@@ -172,8 +169,7 @@ Affiche instantanément les processus qui saturent la bande passante disque (I/O
 
 ---
 
-## 🏷️ Tags & Mots-Clés GitHub (SEO Topics)
-
+## 
 Pour maximiser l'indexation de votre dépôt sur GitHub et Google, ajoutez ces tags dans la section **About ⚙️ > Topics** de votre dépôt :
 
 ```text
